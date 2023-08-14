@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h3{
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.24331rem;
+    margin-bottom: 0;
+    width: 9.5rem;
+}
+
+h2{
+    color: #F94F6D;
+    background: black;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 5.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7.91663rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#score-increase {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#score-increase button {
+    color: #9AABD8;
+    background: #1B244A;
+    border-radius: 0.3125rem;
+    border: 2px solid #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.73825rem;
+}
+
+#restart-btn {
+    color: #9AABD8;
+    background: #1B244A;
+    border-radius: 0.3125rem;
+    border: 2px solid #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-top: 4rem;
+}
+
+/* .winning {
+    background: rgba(0, 0, 0, 0.249);
+    border: 4px dotted red;
+} */
+
+.announce-win {
+    display: inline-block;
+    background: orange;
+    width: 100%;
+    height: cover;
+}
+
+.announce-win h1 {
+    font-family: Cursed Timer ULiL;
+    font-size: 5rem;
+    color: black;
+    border: 4px dotted red;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.hide {
+    display: none;
+}
