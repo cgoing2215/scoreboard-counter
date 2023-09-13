@@ -1,8 +1,6 @@
 body {
     margin: 0;
-    background: url("/img/stephen-baker-QAX5Ylx-lKo-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background: #000000;
     height: 100vh;
     width: 100%;
 }
